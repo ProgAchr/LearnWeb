@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon Portfolio Fictif</title>
+    <style>
+      /* --- Styles Généraux --- */
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: auto;
+        overflow: auto;
+        padding: 0 2rem;
+      }
+
+      /* --- En-tête et Navigation --- */
+      header {
+        background: #333;
+        color: #fff;
+        padding: 1rem 0;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+
+      header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 1.5rem;
+      }
+
+      nav ul {
+        padding: 0;
+        list-style: none;
+        margin: 0;
+      }
+
+      nav ul li {
+        display: inline;
+        margin-left: 20px;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      nav a:hover {
+        color: #f0a500;
+      }
+
+      /* --- Sections de Contenu --- */
+      section {
+        background: #fff;
+        margin: 2rem 0;
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        scroll-margin-top: 80px; /* Décale l'ancre pour ne pas être sous le header */
+      }
+
+      section h2 {
+        color: #333;
+        border-bottom: 2px solid #f0a500;
+        padding-bottom: 0.5rem;
+      }
+
+      /* --- Pied de page --- */
+      footer {
+        text-align: center;
+        padding: 2rem;
+        background: #333;
+        color: #fff;
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ======================= -->
+    <!--    EN-TÊTE ET MENU      -->
+    <!-- ======================= -->
+    <header>
+      <div class="container">
+        <h1>Mon Espace</h1>
+        <nav>
+          <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#ou-je-vis">Où je vis</a></li>
+            <li><a href="#ce-que-je-fais">Ce que je fais</a></li>
+            <li><a href="#interets">Intérêts</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <!-- ======================= -->
+      <!--    PAGE 1 : ACCUEIL     -->
+      <!-- ======================= -->
+      <section id="accueil">
+        <h2>Bienvenue sur mon espace personnel</h2>
+        <p>
+          Bonjour et bienvenue ! Je suis ravi de vous accueillir sur mon site.
+          Cet espace est une fenêtre ouverte sur mon univers, mes passions et
+          mes projets. La création de sites web est un domaine qui me fascine,
+          et ce site est l'une de mes explorations. Que vous soyez ici par
+          curiosité, pour en apprendre plus sur moi ou pour trouver
+          l'inspiration, j'espère que vous apprécierez la visite.
+        </p>
+      </section>
+
+      <!-- ======================= -->
+      <!--    PAGE 2 : OÙ JE VIS   -->
+      <!-- ======================= -->
+      <section id="ou-je-vis">
+        <h2>Mon port d'attache</h2>
+        <p>
+          Je vis dans une ville dynamique où l'histoire et la modernité se
+          rencontrent à chaque coin de rue. C'est un lieu qui m'inspire
+          constamment, avec ses parcs verdoyants parfaits pour une balade
+          ressourçante, ses marchés animés où les saveurs locales s'exposent et
+          ses ruelles pavées qui racontent des siècles d'histoires. La vie
+          culturelle y est aussi très riche, avec de nombreux festivals,
+          concerts et expositions tout au long de l'année.
+        </p>
+      </section>
+
+      <!-- ========================== -->
+      <!--  PAGE 3 : CE QUE JE FAIS   -->
+      <!-- ========================== -->
+      <section id="ce-que-je-fais">
+        <h2>Mon quotidien</h2>
+        <p>
+          Actuellement étudiant à temps plein, je me consacre à l'apprentissage
+          et à la découverte de nouveaux savoirs. Mon domaine d'étude me
+          passionne et chaque journée est une occasion d'approfondir mes
+          connaissances et de développer de nouvelles compétences. En dehors des
+          cours, j'aime mettre en pratique ce que j'apprends à travers des
+          projets personnels, comme la création de ce site web. C'est pour moi
+          une manière concrète et créative d'explorer les multiples facettes du
+          monde numérique.
+        </p>
+      </section>
+
+      <!-- ========================== -->
+      <!-- PAGE 4 : CENTRES D'INTÉRÊT -->
+      <!-- ========================== -->
+      <section id="interets">
+        <h2>Ce qui m'anime</h2>
+        <p>
+          Je suis un grand passionné par tout ce qui touche aux mondes
+          numériques et imaginaires. L'informatique est pour moi un terrain de
+          jeu infini, que ce soit pour créer ou pour comprendre comment les
+          choses fonctionnent. Cette curiosité pour la technologie est complétée
+          par mon amour pour les histoires, que je découvre à travers la
+          lecture, mon évasion favorite, et les jeux vidéo, qui offrent des
+          expériences narratives interactives uniques.
+        </p>
+        <p>Découvrez plus sur chacun de ces sujets ci-dessous :</p>
+        <ul>
+          <li><a href="#interet-informatique">L'informatique</a></li>
+          <li><a href="#interet-lecture">La lecture</a></li>
+          <li><a href="#interet-jeux-video">Les jeux vidéo</a></li>
+        </ul>
+      </section>
+
+      <!-- ================================ -->
+      <!-- PAGE 5.1 : INTÉRÊT INFORMATIQUE  -->
+      <!-- ================================ -->
+      <section id="interet-informatique">
+        <h2>Au cœur du numérique (Informatique)</h2>
+        <p>
+          L'informatique est bien plus qu'un outil pour moi, c'est une véritable
+          passion. J'aime explorer tous ses aspects, de l'assemblage minutieux
+          des composants d'un ordinateur (hardware) à la découverte de nouveaux
+          logiciels (software). Comprendre le langage des machines et voir des
+          lignes de code se transformer en une application fonctionnelle est
+          quelque chose de fascinant. Je passe beaucoup de temps à me tenir
+          informé des dernières innovations technologiques, cherchant toujours à
+          optimiser mon installation ou à apprendre un nouveau langage de
+          programmation.
+        </p>
+      </section>
+
+      <!-- ============================== -->
+      <!-- PAGE 5.2 : INTÉRÊT LECTURE     -->
+      <!-- ============================== -->
+      <section id="interet-lecture">
+        <h2>L'évasion par les mots (Lecture)</h2>
+        <p>
+          La lecture est mon refuge, une porte ouverte sur une infinité
+          d'univers. Je suis particulièrement attiré par les genres de
+          l'imaginaire, comme la science-fiction et la fantasy, qui me
+          permettent de voyager dans des mondes extraordinaires et de suivre les
+          péripéties de personnages inoubliables. Chaque livre est une promesse
+          d'aventure et de réflexion. Il n'y a rien de tel que de se plonger
+          dans un bon roman pour s'évader du quotidien et laisser son
+          imagination prendre le dessus.
+        </p>
+      </section>
+
+      <!-- ================================ -->
+      <!-- PAGE 5.3 : INTÉRÊT JEUX VIDÉO    -->
+      <!-- ================================ -->
+      <section id="interet-jeux-video">
+        <h2>Des mondes interactifs à explorer (Jeux Vidéo)</h2>
+        <p>
+          Pour moi, les jeux vidéo sont une forme d'art à part entière. Ils
+          combinent narration, direction artistique, musique et interactivité
+          pour créer des expériences immersives incomparables. J'apprécie
+          particulièrement les jeux de rôle (RPG) pour leurs scénarios complexes
+          et la liberté qu'ils offrent, ainsi que les jeux indépendants qui
+          osent proposer des concepts originaux. Que ce soit pour explorer un
+          monde ouvert vaste et détaillé, résoudre des énigmes complexes ou
+          partager un moment de compétition amicale avec des amis, le jeu vidéo
+          est un hobby riche et varié.
+        </p>
+      </section>
+    </main>
+
+    <!-- ======================= -->
+    <!--      PIED DE PAGE       -->
+    <!-- ======================= -->
+    <footer>
+      <p>Portfolio Fictif © 2025 - Créé pour un exercice web.</p>
+    </footer>
+  </body>
+</html>
