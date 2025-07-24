@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <title>Personal Site : Home page</title>
+    <title>Personal Site : Homepage</title>
   </head>
   <header>
     <nav>
@@ -10,19 +10,28 @@
         <li><a href="index.html">Accueil</a></li>
         <li><a href="where.html">Où je vis</a></li>
         <li><a href="work.html">Ce que je fais</a></li>
-        <li><a href="interests/">Mes centres d'intérêt</a></li>
-        <ul>
-          <li><a href="interests/computer.html">L'informatique</a></li>
-          <li><a href="interests/reading.html">La Lecture</a></li>
-          <li><a href="interests/videogames.html">Les jeux vidéo</a></li>
-        </ul>
+        <li>
+          <!-- J'ai corrigé la structure de la liste ici, le <ul> doit être dans un <li> -->
+          <a href="interests/computer.html">Mes centres d'intérêt</a>
+          <ul>
+            <li><a href="interests/computer.html">L'informatique</a></li>
+            <li><a href="interests/reading.html">La Lecture</a></li>
+            <li><a href="interests/videogames.html">Les jeux vidéo</a></li>
+          </ul>
+        </li>
       </ul>
     </nav>
   </header>
 
   <body>
     <h1>Bienvenue sur mon espace personnel</h1>
-    <p><img src="images/webprogramminglogo.png" alt="me" /></p>
+    <!-- Le chemin de l'image est corrigé ici -->
+    <p>
+      <img
+        src="images/webprogramminglogo.png"
+        alt="Logo de programmation web"
+      />
+    </p>
     <p>
       Bonjour et bienvenue ! Je suis ravi de vous accueillir sur mon site. Cet
       espace est une fenêtre ouverte sur mon univers, mes passions et mes
