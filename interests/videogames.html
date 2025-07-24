@@ -1,18 +1,3 @@
-Absolument. En analysant la structure de vos fichiers, le problème est très
-clair. Votre fichier videogames.html se trouve dans le dossier interests. Par
-conséquent, tous les liens à l'intérieur de ce fichier doivent être écrits en
-tenant compte de sa position. Le problème Les liens dans votre menu de
-navigation sont écrits comme si le fichier était à la racine de votre projet
-(dans le dossier LEARNWEB), ce qui n'est pas le cas. href="index.html" cherche
-un fichier index.html dans le dossier interests. href="interests/computer.html"
-cherche un dossier interests à l'intérieur du dossier interests
-(interests/interests/computer.html), ce qui n'existe pas. La solution Vous devez
-ajuster les chemins pour refléter la position actuelle du fichier : Pour
-remonter d'un dossier (sortir du dossier interests pour aller vers la racine
-LEARNWEB), vous devez utiliser ../ Pour accéder à un fichier dans le même
-dossier (interests), vous pouvez simplement écrire son nom. Votre fichier
-videogames.html corrigé Voici le code corrigé que vous pouvez copier-coller.
-J'ai ajouté des commentaires pour expliquer chaque changement. Generated html
 <!DOCTYPE html>
 <html lang="fr">
   <head>
